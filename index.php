@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php $url = dirname($_SERVER['PHP_SELF']); $url = substr($url, 1);?>
+<?php $url = dirname($_SERVER['PHP_SELF']);?>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
