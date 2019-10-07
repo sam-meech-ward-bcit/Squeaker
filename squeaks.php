@@ -23,6 +23,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   // New Features Go Here
 
-  $squeaks = getAllSqueaks($username, $order);
+  $squeaks = getAllSqueaks();
   echo json_encode(["data" => $squeaks]);
 }

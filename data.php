@@ -8,7 +8,7 @@ function getSqueak($squeakId) {
 
 
 // returns an associative array of all of the squeaks
-function getAllSqueaks($username, $order) {
+function getAllSqueaks() {
   
 }
 
