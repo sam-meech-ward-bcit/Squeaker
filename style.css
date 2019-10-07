@@ -18,6 +18,11 @@
   padding: 20px;
 }
 
+.filter-squeaks-container {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
 .page-container {
   position: fixed;
   justify-content: space-between;
@@ -34,4 +39,19 @@
 }
 .squeak h3 {
   margin: 0;
+}
+
+#filter-squeaks-form {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#filter-squeaks-form select {
+  width: 350px;
+}
+
+#filter-squeaks-form input {
+  margin: auto 20px; 
 }
